@@ -5,7 +5,7 @@ const outerFunction = () => {
     const innerFunction = () => {
         console.log(count++)
         console.log(outerVariable); // Accesses outerVariable from outerFunction
-        console.log('-------------------END----')
+        console.log('-------------------END----------------')
     }
 
     return innerFunction;
